@@ -1,7 +1,7 @@
 const router = require('express').Router();
 
 // Get Homepage
-router.get('/', ensureAuthenticated, function(req, res){
+router.get('/', function(req, res){
 	res.render('index');
 });
 
