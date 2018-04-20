@@ -1,0 +1,211 @@
+.arcadeLogo {
+    margin-left: 60px;
+}
+
+#nav-mobile {
+    margin-right: 60px;
+}
+
+.banner {
+    background: url(../img/arcade_banner_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+.footer {
+    background: url(../img/arcadebg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    border-top: 3px solid #ffd180;
+    border-bottom: 5px solid #ffd180;
+}
+
+#twitchjpg{
+    background: url(https://wdexplorer.com/wp-content/uploads/MattGravish_twitch_logo_animation.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    border-top: 5px solid #616161;
+    margin-top: 25px;
+}
+
+#mainjpg {
+    background: url(http://78.media.tumblr.com/e46b6701c1b90eb580cd19697f967b72/tumblr_n3g2kyp0z71skb43vo1_500.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    border-top: 3px solid #ffd180;
+    border-bottom: 3px solid #ffd180;
+    margin-top: 50px;
+
+}
+
+#pacman {
+    background: url(http://i.imgur.com/4sQwhiF.gif);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top: 3px solid #ffd180;
+}
+
+.loginSection {
+    margin-left: 60px;
+}
+
+.registerSection {
+    margin-left: 60px;
+}
+
+.page-header {
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.row {
+    margin-bottom: 0 !important;
+}
+
+#loginBtn {
+    margin-left: 53px;
+    margin-bottom: 25px;
+}
+
+#registerBtn {
+    margin-left: 53px;
+    margin-bottom: 25px;
+}
+
+.fluid {
+    padding: 0 !important;
+    background: url(https://media.giphy.com/media/FnnujYxijXoyc/giphy.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#dashboard {
+    
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    margin-left: 20px !important;
+    margin-top: 25px !important;
+    padding: 10px 10px 0px 10px;
+    background-color: #e0e0e0 !important;
+}
+
+#BJ {
+    height: 212px !important;
+    border: 2px solid #616161;
+}
+
+#galaga {
+    height: 212px !important;
+    border: 2px solid #616161;
+}
+
+#frogger {
+    height: 212px !important;
+    border: 2px solid #616161;
+}
+
+#indexHeader {
+    font-size: 54px;
+    text-shadow: -3px 2px #ff7d00;
+}
+
+
+nav ul a {
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    color: #fff;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+    text-shadow: 1px 2px #222222;
+}
+
+h1#feature {
+    color: #ffa726;
+    text-align: center;
+    text-shadow: 2px 2px #222222
+}
+
+h3#new-releases {
+    color: #ffa726;
+    text-align: center;
+    text-shadow: 2px 2px #222222;
+}
+
+canvas {
+    margin-left: 320px;
+    margin-top: 50px;
+    border: 10px solid #212121;
+    padding: 5px;
+}
+
+/* LOGIN MODAL
+===================*/
+
+#loginModal {
+    height: 320px;
+}
+
+#loginBtn {
+    margin-top: 25px;
+    background-color: #424242 !important;
+}
+
+#password {
+    margin-bottom: 25px;
+}
+
+#modalBack {
+    background-color: #fff !important;
+}
+
+#loginLink {
+    margin-top: 20px;
+}
+
+ /* REGISTRATION MODAL
+=======================*/
+
+
+ #RegistrationModal {
+    height: 600px;
+}
+
+.registerSection {
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+#registerBtn {
+    margin-top: 50px;
+    background-color: #424242 !important;
+}
+
+ #registerLink {
+    margin-top: 35px;
+}
+
+/*FLASH ALERTS*/
+
+.alert {
+    text-align: center;
+    margin: 0 !important;
+}
