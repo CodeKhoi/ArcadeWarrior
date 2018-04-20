@@ -76,7 +76,9 @@ var MONGODB_URI = process.env.MONGODB_URI;
 
 // Set mongoose to leverage built in JavaScript ES6 Promises
 mongoose.Promise = Promise;
-mongoose.connect(MONGODB_URI || 'mongodb://localhost:27017');
+mongoose.connect(MONGODB_URI, {
+  useMongoClient: true
+});
 
 var db = mongoose.connection;
 
