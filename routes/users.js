@@ -102,7 +102,7 @@ passport.deserializeUser(function(id, done) {
 });
 
 router.post('/login',
-  passport.authenticate({successRedirect:'/users/mario', failureRedirect:'/users/login',failureFlash: true}),
+  passport.authenticate('local'),
   function(req, res) {
   res.redirect('/');
  });
