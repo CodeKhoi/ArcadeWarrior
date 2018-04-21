@@ -71,14 +71,15 @@ app.use(function (req, res, next) {
   next();
 });
 
+app.use('/', routes);
+app.use('/users', users);
+
 // Database configuration with mongoose
 var MONGODB_URI = process.env.MONGODB_URI;
 
 // Set mongoose to leverage built in JavaScript ES6 Promises
 mongoose.Promise = Promise;
-mongoose.connect(MONGODB_URI, {
-  useMongoClient: true
-});
+mongoose.connect(MONGODB_URI || 'mongodb://localhost:27017');
 
 var db = mongoose.connection;
 
@@ -91,10 +92,6 @@ db.on("error", function(error) {
 db.once("open", function() {
   console.log("Mongoose connection successful.");
 });
-
-// app.use(express.static('public/img'));
-app.use('/', routes);
-app.use('/users', users);
 
 //Define port
 var port = process.env.PORT || 3000
